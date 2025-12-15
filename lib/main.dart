@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:w_phonics/pages/login_page.dart';
 import 'package:w_phonics/pages/onboarding_page.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       debugShowCheckedModeBanner: false,
-      home: const OnboardingPage(),
+      home: const LoginPage(),
     );
   }
 }
